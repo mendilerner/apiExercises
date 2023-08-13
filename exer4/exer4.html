@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="exer4.js" defer></script>
+    <style>
+        form{
+            padding: 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            width: 45vw;
+            background-color: rgba(82, 251, 251, 0.19);
+            border: 2px solid rgba(4, 165, 165, 0.914);
+            border-radius: 12px;
+            font-size: 24px;
+            font-family: sans-serif;
+        }
+        form label>span{
+            display: block;
+            margin: 4px 0;
+        }
+        form input{
+            height: 36px;
+            width: 40vw;
+            margin: 4px 0;
+            font-size: 24px;
+            font-family: sans-serif;
+        }
+        form button{
+            background-color: aqua;
+            margin: 16px;
+            padding: 8px;
+            width: 20vw;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label>
+            <span>first name</span>
+            <input type="text" id="first-name">
+        </label>
+        <label>
+           <span> last name</span>
+            <input type="text" id="last-name">
+        </label>
+        <label>
+            <span>email</span>
+            <input type="text" id="email">
+        </label>
+        <label>
+            <span>age</span>
+            <input type="number" id="age">
+        </label>
+        <button type="submit">
+            submit form
+        </button>
+    </form>
+</body>
+</html>
